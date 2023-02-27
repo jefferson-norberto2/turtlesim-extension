@@ -1,2 +1,1 @@
-float64 current_x
-float64 current_y
+int32 quadrant

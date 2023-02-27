@@ -17,6 +17,11 @@ add_message_files(
   Quadrant.msg
 )
 
+add_service_files(
+  FILES
+  CheckQuadrant.srv
+)
+
 generate_messages(
   DEPENDENCIES
   std_msgs
